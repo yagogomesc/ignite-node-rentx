@@ -1,4 +1,5 @@
-import { Category } from '../../entities/Category';
+import { Category } from '@modules/cars/infra/typeorm/entities/Category';
+
 import { ICategoriesRepository, ICreateCategoryDTO } from '../ICategoriesRepository';
 
 class CategoriesRepositoryInMemory implements ICategoriesRepository {
@@ -19,7 +20,8 @@ class CategoriesRepositoryInMemory implements ICategoriesRepository {
     const category = new Category();
 
     Object.assign(category, {
-      name, description,
+      name,
+      description,
     });
 
     this.categories.push(category);
