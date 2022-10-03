@@ -19,7 +19,6 @@ Deve ser possível listar todos os carros disponíveis pelo nome do carro.
 **RN**
 O usuário não precisa estar logado no sistema.
 
-
 # Cadastro de especificação no carro
 
 **RF**
@@ -41,7 +40,6 @@ Utilizar o multer para upload dos arquivos
 **RN**
 O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
 O usuário responsável pelo cadastro deve ser um usuário administrador.
-
 
 # Aluguel de carro
 
@@ -76,3 +74,16 @@ Deve ser possível realizar a busca de todos os alugueis para o usuário
 
 **RN**
 O usuário deve estar logado na aplicação
+
+# Recuperar Senha
+
+**RF**
+
+- Deve ser possível o usuário recuperar a senha informando o e-mail
+- O usuário deve receber um e-mail com o passo a passo para a recuperação da senha
+- O usuário deve conseguir inserir uma nova senha
+
+**RN**
+
+- O usuário precisa informar uma nova senha
+- O link enviado para a recuperação deve expirar em 3 horas
