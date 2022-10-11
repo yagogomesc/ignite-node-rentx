@@ -2,3 +2,5 @@
 /.vscode
 /tmp
 .env
+coverage
+dist
